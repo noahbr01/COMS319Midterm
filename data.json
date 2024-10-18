@@ -6,7 +6,8 @@
             "ingredients": "bread",
             "instructions": "put bread in toaster",
             "picture": "url",
-            "rating": 4
+            "rating": 4,
+            "suggested": true
         }
     ]
 }
