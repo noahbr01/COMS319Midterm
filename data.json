@@ -5,8 +5,8 @@
             "title": "Toast",
             "ingredients": "bread",
             "instructions": "put bread in toaster",
-            "picture": "url"
-
+            "picture": "url",
+            "rating": 4
         }
     ]
 }
