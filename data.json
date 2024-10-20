@@ -3,7 +3,7 @@
         {
             "meal": "breakfast",
             "title": "Pancakes",
-            "ingredients": "flour, milk, eggs, sugar, butter",
+            "ingredients": "1 cup flour, 1 cup milk, 2 eggs, 2 tbsp sugar, 2 tbsp butter",
             "instructions": "Mix all ingredients and cook on a hot griddle.",
             "picture": [
                 "./images/pancake1.jpg",
@@ -15,9 +15,37 @@
             "CookTime": "10 minutes"
         },
         {
+            "meal": "breakfast",
+            "title": "French Toast",
+            "ingredients": "4 slices bread, 2 eggs, 1/2 cup milk, 1 tsp cinnamon, 2 tbsp sugar",
+            "instructions": "Dip bread in the egg mixture and cook on a griddle until golden.",
+            "picture": [
+                "./images/frenchtoast1.jpg",
+                "./images/frenchtoast2.jpg",
+                "./images/frenchtoast3.jpg"
+            ],
+            "rating": 4,
+            "suggested": false,
+            "CookTime": "15 minutes"
+        },
+        {
+            "meal": "breakfast",
+            "title": "Smoothie Bowl",
+            "ingredients": "1 banana, 1 cup spinach, 1/2 cup yogurt, 1/4 cup granola, 1/2 cup mixed berries",
+            "instructions": "Blend banana and spinach with yogurt, top with granola and berries.",
+            "picture": [
+                "./images/smoothiebowl1.jpg",
+                "./images/smoothiebowl2.jpg",
+                "./images/smoothiebowl3.jpg"
+            ],
+            "rating": 5,
+            "suggested": false,
+            "CookTime": "5 minutes"
+        },
+        {
             "meal": "lunch",
             "title": "Cheeseburger",
-            "ingredients": "beef patty, cheese, lettuce, tomato, bun",
+            "ingredients": "1 beef patty (6 oz), 1 slice cheese, 1 lettuce leaf, 1 tomato slice, 1 bun",
             "instructions": "Cook the beef patty, assemble with cheese, lettuce, and tomato in a bun.",
             "picture": [
                 "./images/cheeseburger1.jpg", 
@@ -25,21 +53,76 @@
                 "./images/cheeseburger3.jpg"
             ],
             "rating": 4,
-            "suggested": true,
+            "suggested": false,
             "CookTime": "15 minutes"
         },
         {
+            "meal": "lunch",
+            "title": "Club Sandwich",
+            "ingredients": "3 slices of bread, 4 oz turkey or chicken, 2 slices bacon, 1 lettuce leaf, 1 tomato slice, 2 tbsp mayonnaise",
+            "instructions": "Toast the bread. Layer turkey or chicken, bacon, lettuce, and tomato between the slices of bread. Spread mayonnaise on the top slice. Cut into quarters and secure with toothpicks.",
+            "picture": [
+                "./images/clubsandwich1.jpg", 
+                "./images/clubsandwich2.jpg"
+            ],
+            "rating": 4,
+            "suggested": false,
+            "CookTime": "15 minutes"
+        },
+        {
+            "meal": "lunch",
+            "title": "Chicken Wrap",
+            "ingredients": "6 oz grilled chicken, 1 lettuce leaf, 1 tomato slice, 1 tortilla",
+            "instructions": "Wrap grilled chicken with lettuce and tomato in a tortilla.",
+            "picture": [
+                "./images/chickenwrap1.jpg",
+                "./images/chickenwrap2.jpg",
+                "./images/chickenwrap3.jpg"
+            ],
+            "rating": 5,
+            "suggested": true,
+            "CookTime": "10 minutes"
+        },
+        {
             "meal": "dinner",
-            "title": "Pasta",
-            "ingredients": "pasta, sauce, cheese",
+            "title": "Spaghetti",
+            "ingredients": "8 oz pasta, 1 cup sauce, 1/2 cup cheese",
             "instructions": "Boil pasta, add sauce, top with cheese",
             "picture": [
                 "./images/pasta1.jpg",
                 "./images/pasta2.jpg",
                 "./images/pasta3.jpg"
             ],
-            "rating": 3,
+            "rating": 4,
             "suggested": true,
+            "CookTime": "15 minutes"
+        },
+        {
+            "meal": "dinner",
+            "title": "Grilled Salmon",
+            "ingredients": "1 salmon fillet (6 oz), 1 lemon, 1 tsp herbs, 1 tbsp olive oil",
+            "instructions": "Season salmon and grill until cooked through.",
+            "picture": [
+                "./images/grilledsalmon1.jpg",
+                "./images/grilledsalmon2.jpg",
+                "./images/grilledsalmon3.jpg"
+            ],
+            "rating": 5,
+            "suggested": false,
+            "CookTime": "20 minutes"
+        },
+        {
+            "meal": "dinner",
+            "title": "Stir-Fried Vegetables",
+            "ingredients": "2 cups mixed vegetables, 2 tbsp soy sauce, 2 cloves garlic, 1 tsp ginger",
+            "instructions": "Stir-fry vegetables with garlic and ginger, add soy sauce.",
+            "picture": [
+                "./images/stirfry1.jpg",
+                "./images/stirfry2.jpg",
+                "./images/stirfry3.jpg"
+            ],
+            "rating": 4,
+            "suggested": false,
             "CookTime": "15 minutes"
         }
     ]

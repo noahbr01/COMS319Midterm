@@ -23,7 +23,7 @@ function fetchData(mealType) {
             let row = document.getElementById("row");
             row.innerHTML = "";
 
-            recipes.forEach(recipe => {
+            recipes.forEach((recipe, index) => {
                 if (getSug && recipe.suggested || recipe.meal === mealType) {
                     let { title, ingredients, instructions, picture, rating, CookTime } = recipe;
 
@@ -35,7 +35,7 @@ function fetchData(mealType) {
                     
                     const carouselId = title.replace(/\s+/g, '-').toLowerCase();
                     let addCard = document.createElement("div");
-                    addCard.classList.add("col", "mb-5");
+                    addCard.classList.add("col", "mb-5", "slide-in"); // Add slide-in class
                     addCard.innerHTML = `
                         <div class="card h-100">
                            <div id="${carouselId}" class="carousel slide" data-bs-ride="carousel">
@@ -70,8 +70,13 @@ function fetchData(mealType) {
                             </div>
                         </div>
                     `;
-                    
+
                     row.appendChild(addCard);
+
+                    // Delay the addition of the "show" class for the animation
+                    setTimeout(() => {
+                        addCard.classList.add("show");
+                    }, index * 100); // Staggered delay for each card
                 }
             });
         })
@@ -79,3 +84,4 @@ function fetchData(mealType) {
             console.error("Error fetching data:", error);
         });
 }
+
