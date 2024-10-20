@@ -1,13 +1,48 @@
 {
-    "recipes":[
+    "recipes": [
         {
             "meal": "breakfast",
-            "title": "Toast",
-            "ingredients": "bread",
-            "instructions": "put bread in toaster",
-            "picture": "url",
+            "title": "Pancakes",
+            "ingredients": "flour, milk, eggs, sugar, butter",
+            "instructions": "Mix all ingredients and cook on a hot griddle.",
+            "picture": [
+                "./images/pancake1.jpg",
+                "./images/pancake2.jpg",
+                "./images/pancake3.jpg"
+            ],
+            "rating": 5,
+            "suggested": true,
+            "CookTime": "10 minutes"
+        },
+        {
+            "meal": "lunch",
+            "title": "Cheeseburger",
+            "ingredients": "beef patty, cheese, lettuce, tomato, bun",
+            "instructions": "Cook the beef patty, assemble with cheese, lettuce, and tomato in a bun.",
+            "picture": [
+                "./images/cheeseburger1.jpg", 
+                "./images/cheeseburger2.jpg",
+                "./images/cheeseburger3.jpg"
+            ],
             "rating": 4,
-            "suggested": true
+            "suggested": true,
+            "CookTime": "15 minutes"
+        },
+        {
+            "meal": "dinner",
+            "title": "Pasta",
+            "ingredients": "pasta, sauce, cheese",
+            "instructions": "Boil pasta, add sauce, top with cheese",
+            "picture": [
+                "./images/pasta1.jpg",
+                "./images/pasta2.jpg",
+                "./images/pasta3.jpg"
+            ],
+            "rating": 3,
+            "suggested": true,
+            "CookTime": "15 minutes"
         }
     ]
 }
+
+
